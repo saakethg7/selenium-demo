@@ -16,7 +16,7 @@ public class App
     public static void main( String[] args ) throws InterruptedException
     {
         //System.out.println( "Hello World!" );
-        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
         
        ChromeOptions chromeoptions = new ChromeOptions();
        WebDriver driver = new ChromeDriver(chromeoptions);
