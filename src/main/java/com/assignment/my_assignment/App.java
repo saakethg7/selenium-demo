@@ -20,6 +20,8 @@ public class App
     	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         
        ChromeOptions chromeoptions = new ChromeOptions();
+       chromeoptions.addArguments("--no-sandbox");
+       chromeoptions.addArguments("--disable-dev-shm-usage");
        WebDriver driver = new ChromeDriver(chromeoptions);
        driver.get("http://18.223.248.64:8080/addressbook-demo/");
        Thread.sleep(10000);
