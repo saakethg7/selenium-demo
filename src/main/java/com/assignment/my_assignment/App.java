@@ -32,10 +32,10 @@ public class App
        driver.findElement(By.className("v-button")).click();
        
        driver.findElement(By.id("gwt-uid-5")).sendKeys("Saaketh");
-       driver.findElement(By.id("gwt-uid-7")).sendKeys("G");
+       driver.findElement(By.id("gwt-uid-7")).sendKeys("JenkinsRun");
        driver.findElement(By.id("gwt-uid-9")).sendKeys("7940012259");
-       driver.findElement(By.id("gwt-uid-11")).sendKeys("Saaketh@gmail.com");
-       driver.findElement(By.id("gwt-uid-13")).sendKeys("4/3/21,");
+       driver.findElement(By.id("gwt-uid-11")).sendKeys("jenkinsrun@gmail.com");
+       driver.findElement(By.id("gwt-uid-13")).sendKeys("4/3/20,");
        
        driver.findElement(By.className("v-button-primary")).click();
        Thread.sleep(10000);
