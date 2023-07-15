@@ -30,7 +30,7 @@ public class facebook {
 	       
 	       
 	       driver.findElement(By.id("email")).sendKeys("saaketh.g1308@gmail.com");
-	       driver.findElement(By.id("pass")).sendKeys("Subway@44!.8");
+	       driver.findElement(By.id("pass")).sendKeys("");
 	       driver.findElement(By.name("login")).click();
 	       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	      String name= driver.findElement(By.xpath("//a[@aria-label='SaaKeth Gunturu']/div[3]/span/span")).getText();
